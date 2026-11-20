@@ -1,0 +1,7 @@
+.git
+**/.angular
+**/build
+**/dist
+**/node_modules
+tmp
+

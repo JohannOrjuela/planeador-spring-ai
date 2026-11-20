@@ -28,6 +28,6 @@ export class ChatService {
   }
 
   send(request: ChatRequest): Observable<ChatResponse> {
-    return this.http.post<ChatResponse>('/api/v1/chat', request).pipe(timeout(240000));
+    return this.http.post<ChatResponse>('/api/v1/chat', request).pipe(timeout(600000));
   }
 }

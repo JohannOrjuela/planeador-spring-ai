@@ -83,7 +83,7 @@ export class AppComponent implements OnInit {
       next: response => this.finish(response),
       error: (error: HttpErrorResponse | TimeoutError) => {
         const message = error instanceof TimeoutError
-          ? 'El modelo tardó más de cuatro minutos. Puedes intentar de nuevo.'
+          ? 'El modelo tardó más de diez minutos. Puedes intentar de nuevo.'
           : error instanceof HttpErrorResponse && error.status
             ? `La API respondió con el estado HTTP ${error.status}.`
             : 'No fue posible conectar con el planeador.';
