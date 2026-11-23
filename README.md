@@ -1,6 +1,6 @@
 # Planeador de fin de semana multiagente con Spring AI y Ollama
 
-Implementación en Java del taller del Módulo 3 de Aplicaciones basadas en grandes modelos de lenguaje. Un supervisor coordina agentes de clima, presupuesto, actividades y reservas; después, un sintetizador redacta la respuesta final usando exclusivamente los resultados de los especialistas.
+Implementación en Java del taller de "Aplicaciones basadas en grandes modelos de lenguaje." Un modelo actúa con el rol de supervisor que va a coordina agentes de clima, presupuesto, actividades y reservas; después, un sintetizador redacta la respuesta final usando exclusivamente los resultados de los especialistas.
 
 ## Arquitectura
 
@@ -125,4 +125,4 @@ backend/src/main/java/com/example/chat/
     └── PlaneadorOrquestador.java
 ```
 
-La bitácora editable se encuentra en `docs/Bitacora_Planeador_SpringAI_Editable.docx`.
+La bitácora editable se encuentra en `docs/Bitacora_SpringAI_Final_Grupo4.pdf`.
